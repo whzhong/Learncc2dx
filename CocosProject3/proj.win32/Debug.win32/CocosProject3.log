@@ -1,0 +1,59 @@
+﻿Build started 2015/7/18 0:18:05.
+     1>Project "D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\CocosProject3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\audio\include" /I"C:\Cocos\frameworks\cocos2d-x-3.4\external" /I"C:\Cocos\frameworks\cocos2d-x-3.4\external\chipmunk\include\chipmunk" /I"C:\Cocos\frameworks\cocos2d-x-3.4\extensions" /I..\Classes /I.. /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\frameworks\cocos2d-x-3.4\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\demo\bird\FlyBirdGame.cpp
+         FlyBirdGame.cpp
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\obstacle.h(8): warning C4996: 'cocos2d::Array': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(1035) : see declaration of 'cocos2d::Array'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.h(12): warning C4996: 'cocos2d::Object': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(537) : see declaration of 'cocos2d::Object'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.h(22): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.h(10): warning C4996: 'cocos2d::Object': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(537) : see declaration of 'cocos2d::Object'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(39): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(47) : see declaration of 'cocos2d::ccp'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(45): warning C4996: 'cocos2d::ccp': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(47) : see declaration of 'cocos2d::ccp'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(63): warning C4996: 'cocos2d::Animation::addSpriteFrameWithFileName': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\2d\ccanimation.h(177) : see declaration of 'cocos2d::Animation::addSpriteFrameWithFileName'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(64): warning C4996: 'cocos2d::Animation::addSpriteFrameWithFileName': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\2d\ccanimation.h(177) : see declaration of 'cocos2d::Animation::addSpriteFrameWithFileName'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(65): warning C4996: 'cocos2d::Animation::addSpriteFrameWithFileName': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\2d\ccanimation.h(177) : see declaration of 'cocos2d::Animation::addSpriteFrameWithFileName'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(72): warning C4996: 'cocos2d::LabelBMFont::create': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\2d\cclabelbmfont.h(95) : see declaration of 'cocos2d::LabelBMFont::create'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(79): warning C4996: 'cocos2d::Array': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(1035) : see declaration of 'cocos2d::Array'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(96): warning C4996: 'cocos2d::Object': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(537) : see declaration of 'cocos2d::Object'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(148): warning C4996: 'cocos2d::LabelBMFont': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\2d\cclabelbmfont.h(81) : see declaration of 'cocos2d::LabelBMFont'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(149): warning C4996: 'cocos2d::String': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(1049) : see declaration of 'cocos2d::String'
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(1049) : see declaration of 'cocos2d::String'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(150): warning C4996: 'cocos2d::LabelBMFont::setString': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\2d\cclabelbmfont.h(105) : see declaration of 'cocos2d::LabelBMFont::setString'
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\2d\cclabelbmfont.h(105) : see declaration of 'cocos2d::LabelBMFont::setString'
+     1>d:\documents\cocos\cocosprojects\cocosproject3\classes\demo\bird\flybirdgame.cpp(207): warning C4996: 'cocos2d::CCRectMake': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4\cocos\deprecated\ccdeprecated.h(388) : see declaration of 'cocos2d::CCRectMake'
+       PreLinkEvent:
+         if not exist "D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\" mkdir "D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.4\prebuilt\win32\*.*" "D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 49 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\CocosProject3.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\ /LIBPATH:D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\CocosProject3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\CocosProject3.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\FlyBirdGame.obj
+         Debug.win32\Obstacle.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+     1>AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\CocosProject3.lib and object D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\CocosProject3.exp
+         CocosProject3.vcxproj -> D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\Debug.win32\CocosProject3.exe
+     1>Done Building Project "D:\Documents\cocos\CocosProjects\CocosProject3\proj.win32\CocosProject3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.28
